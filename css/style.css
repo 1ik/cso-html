@@ -1,0 +1,357 @@
+/********* Navigation and Header **************/
+h2, h1 ,h3, h4{
+	font-family: Segoe UI;
+	font-weight: 700;
+}
+svg{
+	width : 0px;
+	height : 0px;
+}
+
+
+p{
+	font-family: Segoe UI;
+}
+
+.topheader {
+	padding-top: 20px;
+	background-color: #F2F2F2;
+}
+
+#cso_logo {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-inverse {
+	background-color: #1C548C;
+	border-bottom: 8px solid #033F60;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: white;
+	background-color: #033F60;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	padding-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li {
+	font-family: Segoe UI;
+	font-weight: 700;
+}
+
+.site-info, .site-info h2 {
+	font-family: Segoe UI;
+}
+
+@media screen and (min-width: 1024px) {
+	.site-info {
+		text-align: right; /* float right only for desktop and notebooks */
+	}
+	.site-info h2, .site-info p {
+		padding-right : 10px;
+	}
+	.site-info p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.site-info {
+		text-align: center; /* allign center for mid and low level devices */
+	}
+}
+
+
+
+
+
+/**************Message ****************/
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MyriadPro-Regular.otf'); 
+}
+
+#message_section{
+	text-align : center;
+	color : #9E005D;
+}
+
+#message_section h3{
+	font-family : 'MyriadPro';
+	font-weight : 700;
+	
+}
+
+
+/******* Main COntent *************/
+
+.mainContent{
+	background-color  : #F2F2F2;
+	margin-bottom: 30px;
+	padding-bottom : 30px;
+}
+
+/* sdiebar left */
+.sidebar-left {
+	background-color : #ffffff;
+	margin-left : 10px;
+}
+
+.sidebar-left-heading {
+	position : relative;
+	top : 25px;
+	background-color : #1C548C;
+	height : 80px;
+	width : 107%;
+	left : -10px;
+}
+
+/* RIBBON TRIANGLE */
+
+	.triangle-r {
+		border-color: transparent transparent transparent #1C548C;
+		border-style:solid;
+		border-width:15px;
+		height:0px;
+		width:0px;
+		position: relative;
+		left: 96%;
+		top: 81%;
+	}
+
+
+@media screen and (max-width: 985px) {
+	.triangle-r {
+		display : none; /* no riboons for mid and low level devices */
+	}
+	.sidebar-left-heading {
+		background-color : #1C548C;
+		height : 80px;
+		width : 100%;
+		left : 0px;
+	}
+	.sidebar-left {
+		margin-left: 0px;
+	}
+		
+}
+
+.sidebar-left-heading h3{
+	position : relative;
+	font-family: Segoe UI;
+	color : white;
+	top : -90%;
+	margin-left: 80px;
+	font-weight: 700;
+}
+
+
+.sidebar-left .entry{
+	width : 80%;
+	padding : 25px;
+	margin-left : 20px;
+	border-bottom: 2px dotted #0071BC;
+}
+
+
+/* Login section */
+.login-form{
+	width : 80%;
+	padding : 25px;
+	margin-top : 60px;
+	margin-left : 20px;
+	border-top : 2px dotted blue;
+}	
+#login {
+	margin-top: 20px;
+}
+
+#login input{
+	margin-bottom : 20px;
+}
+#signup p{
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+
+.signup-icon{
+	background-position: 0px 6px;
+	width : 50px;
+	top : 20px;
+	position : relative;
+	height : 40px;
+	margin-left: 5px;
+}
+
+.student {
+	background: url("../img/icons/homework.svg") no-repeat;
+	
+}
+
+.employer{
+	background: url("../img/icons/job.svg") no-repeat;
+}
+
+.student , .employer{
+	background-position : 7px 0px;
+}
+
+.al{
+	background: url("../img/icons/graduated.svg") no-repeat;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 985px) {
+	.sidebar-left-heading h3 {
+		text-align: center;
+	}
+	#latest_news{
+		margin-top : 15px;
+	}
+}
+
+
+#latest_news {
+	width : 20%;
+	height : 50%;
+	margin-bottom : 10px;
+	background: url('../img/icons/latest_news.svg') no-repeat;
+	background-position: 60%;
+}
+
+
+/* Main content area */
+.slider{
+	margin-top : 3%;
+}
+
+/* slider */
+.bxslider li{
+	left: 0px;
+}
+
+
+/* front page promoted posts */
+
+.front-page-posts{
+	
+}
+
+.post-teasere {
+	font-family: Segoe UI;
+}
+
+.post-teasere h2{
+	font-family: Segoe UI;
+	margin : 0;
+	padding : 0;
+}
+
+.post-entry{
+	margin-right : 5px;
+	background-color : #ffffff;
+	margin-top : 5px;
+	padding : 10px 0px 10px 0px;
+}
+
+.post-entry .btn{
+	margin-left : 12px;
+}
+
+/** front page promoted posts.*/
+
+
+/* FAQL Sections */
+
+.job-highlight-intro{
+	margin-top : 80px;
+	padding : 30px;
+}
+
+.job-highlight-intro .entry .image img{
+	
+}
+
+.job-highlight{
+	margin-right : 5px;
+	margin-top : 20px;		
+	background : white;
+}
+
+.job-highlight .heading{
+	float : left;
+	width : 100%;
+	height : 100px;
+	background-color : #1C548C;
+}
+
+.job-highlight .heading p{
+	margin-top : 3%;
+	color : #ffffff;
+	font-size : 25px;
+	font-weight : 700;
+}
+
+
+
+#job_highlight_svg{
+	float : left;
+	width : 100px;
+	height : 100px;
+	background : url("../img/icons/job_highlight.svg") no-repeat;
+	background-position : 13px 10px;
+}
+
+
+.accordion .title{
+	font-size : 18px;
+	font-family: Segoe UI;
+	font-weight: 700;
+	color : #1C548C;
+}
+
+.accordion .content{
+	font-size : 14px;
+}
+
+.ui.accordion, .ui.accordion .accordion {
+	width : 100%;
+}
+
+footer{
+	margin-top : 10%;
+	min-height: 300px;
+	background-color : #F2F2F2;
+	padding :0;
+}
+
+footer .contact-person h3{
+	font-weight: 400;
+	border-bottom : 2px dotted blue;
+	padding : 5px;
+}
+
+footer .contact-person{
+	font-size : 20px;
+	margin-left : 30px;
+	padding : 5px;
+}
+
+
+
+
+
+.debug {
+	border: 2px dashed green;
+}
