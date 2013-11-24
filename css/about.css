@@ -1,0 +1,57 @@
+body {
+
+}
+
+@font-face {
+	font-family: "aller";
+	src: url("../fonts/Aller/Aller_Rg.ttf");
+}
+
+
+.about_lead {
+	height : 475px;
+	background : url("../img/bg/about_bg.png") no-repeat;
+	margin-left : 10px;
+	
+}
+
+.about_us_header{
+	top : 250px;
+	margin : auto;
+	font-family : "aller";
+	position: relative;
+	width : 90%;
+	color : white;
+	background: url("../img/components/aboutus_header_bar.png") no-repeat;
+	background-position: -65px 55px;
+	padding-bottom : 105px;
+
+}
+
+.about_header_content{
+	font-family: "aller";
+	padding : 10px 0px 0px 10px;
+}
+.about_header_content .leftCol{
+	margin-top : 7px;
+}
+
+.about_header_content .leftCol p{
+	font-family : "aller";
+	font-size: 25px;
+}
+
+.about_header_content .rightCol{
+	margin-left : 100px;
+	padding-top : 10px;
+}
+.about_header_content .rightCol p{
+	font-size: 16px;
+	font-weight : 600;
+}
+
+
+
+
+
+
