@@ -12,20 +12,24 @@ body {
 	height : 475px;
 	background : url("../img/bg/about_bg.png") no-repeat;
 	margin-left : 10px;
-	
 }
 
+
 .about_us_header{
-	top : 250px;
 	margin : auto;
 	font-family : "aller";
 	position: relative;
 	width : 90%;
 	color : white;
-	background: url("../img/components/aboutus_header_bar.png") no-repeat;
-	background-position: -65px 55px;
-	padding-bottom : 105px;
+}
 
+@media (min-width : 900px) {
+	.about_us_header{
+		top : 250px;
+		background: url("../img/components/aboutus_header_bar.png") no-repeat;
+		background-position: -65px 80px;
+		padding-bottom : 105px;
+	}
 }
 
 .about_header_content{
@@ -50,8 +54,57 @@ body {
 	font-weight : 600;
 }
 
+@media (max-width : 800px) {
+	.about_header_content .rightCol , .about_header_content .leftCol  {
+		text-align: center;
+		margin-left: 0px;
+	}
+}
 
 
 
+
+.info_icons_div{
+	width : 90%;
+	margin : 0 auto;
+	background : white;
+	margin-top : 50px;
+	text-align: center;
+}
+
+.info_icons_div p{
+	padding-top : 20px;
+	font-size : 30px;
+}
+
+.info_icons_div .iconholder{
+	margin-top : 20px;
+}
+
+.iconholder .icondiv{
+	width : 90%;
+	height : 90%;
+	background : black;
+}
+
+
+
+/* about profile */
+.about_profiles{
+	margin-top : 20px;
+}
+
+.about_profiles .profile-item{
+	width : 80%;
+	margin : auto;
+	min-height: 300px;
+	background-color : white;
+	margin-top : 20px;
+	padding : 10px;
+}
+
+.profile-item-description {
+	padding-top : 10px;
+}
 
 
